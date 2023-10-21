@@ -1,0 +1,1244 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>DZIEŃ DOBRY *</pattern>
+        <template>Dzień dobry, w czym mogę pomóc?</template>
+    </category>
+
+    <category>
+        <pattern>DZIEŃ DOBRY</pattern>
+        <template>Dzień dobry, w czym mogę pomóc?</template>
+    </category>
+
+    <category>
+        <pattern>DOBRY *</pattern>
+        <template>Dzień dobry, w czym mogę pomóc?</template>
+    </category>
+
+    <category>
+        <pattern>DOBRY</pattern>
+        <template>Dzień dobry, w czym mogę pomóc?</template>
+    </category>
+
+     <category>
+        <pattern>DOBRY WIECZÓR *</pattern>
+        <template>Dobry wieczór, w czym mogę pomóc?</template>
+    </category>
+
+    <category>
+        <pattern>DOBRY WIECZÓR</pattern>
+        <template>Dobry wieczór, w czym mogę pomóc?</template>
+    </category>
+
+    <category>
+        <pattern>CZEŚĆ *</pattern>
+        <template>Dzień dobry, w czym mogę pomóc?</template>
+    </category>
+
+    <category>
+        <pattern>CZEŚĆ *</pattern>
+        <template>Dzień dobry, w czym mogę pomóc?</template>
+    </category>
+
+    <category>
+        <pattern>_ ZAPISAĆ MOJE DZIECKO NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, chętnie odpowiem na wszelkie pytania</template>
+    </category>
+
+    <category>
+        <pattern>_ ZAPISAĆ DZIECKO NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, chętnie odpowiem na wszelkie pytania</template>
+    </category>
+
+     <category>
+        <pattern>_ DZIECKO ZAPISAĆ NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, chętnie odpowiem na wszelkie pytania</template>
+    </category>
+
+    <category>
+        <pattern>_ ZAPISAĆ MOJEGO SYNA NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, chętnie odpowiem na wszelkie pytania</template>
+    </category>
+
+    <category>
+        <pattern>_ ZAPISAĆ MOJĄ CÓRKĘ NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, czy boi się Pan, że to nie sport dla dziewczyn?</template>
+    </category>
+
+    <category>
+        <pattern>_ ZAPISAĆ SYNA NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, chętnie odpowiem na wszelkie pytania</template>
+    </category>
+
+    <category>
+        <pattern>_ SYNA ZAPISAĆ NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, chętnie odpowiem na wszelkie pytania</template>
+    </category>
+
+    <category>
+        <pattern>_ ZAPISAĆ CÓRKĘ NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, czy boi się Pan, że to nie sport dla dziewczyn?</template>
+    </category>
+
+    <category>
+        <pattern>_ CÓRKĘ ZAPISAĆ NA *</pattern>
+        <template>Oczywiście, mamy jeszcze kilka miejsc na zajęciach, czy boi się Pan, że to nie sport dla dziewczyn?</template>
+    </category>
+
+    <category>
+        <pattern>TAK</pattern>
+        <that>_ CZY BOI SIĘ PAN *</that>
+        <template>Niepotrzebnie, w takim wieku dziewczynki dorównują umiejętnością sportowym chłopakom. Chętnie odpowiem na dalsze pytania</template>
+    </category>
+
+    <category>
+        <pattern>TAK *</pattern>
+        <that>_ CZY BOI SIĘ PAN *</that>
+        <template>Niepotrzebnie, w takim wieku dziewczynki dorównują umiejętnością sportowym chłopakom. Chętnie odpowiem na dalsze pytania</template>
+    </category>
+
+     <category>
+        <pattern>NIE</pattern>
+        <that>_ CZY BOI SIĘ PAN *</that>
+        <template>Słusznie, dziewczynki też powinny trenować tak piękny sport jakim jest hokej na lodzie. Chętnie odpowiem na dalsze pytania</template>
+    </category>
+
+    <category>
+        <pattern>NIE *</pattern>
+        <that>_ CZY BOI SIĘ PAN *</that>
+        <template>Słusznie, dziewczynki też powinny trenować tak piękny sport jakim jest hokej na lodzie. Chętnie odpowiem na dalsze pytania</template>
+    </category>
+
+     <category>
+        <pattern>BEZPIECZNY</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ BEZPIECZNY</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>BEZPIECZNY _</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ BEZPIECZNY *</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>BEZPIECZNE</pattern>
+        <template> Hokej jest dość brutalnym sportem, jednak na poziomie rozgrywek dziecięcych kontuzje zdarzają się bardzo rzadko. </template>
+    </category>
+
+    <category>
+        <pattern>_ BEZPIECZNE</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>BEZPIECZNE _</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ BEZPIECZNE *</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>KONTUZJI</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KONTUZJI</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>KONTUZJI _</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KONTUZJI *</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+   <category>
+        <pattern>KONTUZJE</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KONTUZJE</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>KONTUZJE _</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KONTUZJE *</pattern>
+        <template><srai>BEZPIECZNE</srai></template>
+    </category>
+
+    <category>
+        <pattern>TRENINGI</pattern>
+        <template> Treningi odbywają się 2 razy w tygodniu. W środy o godzinie 18:00 oraz w soboty o godzinie 9:00. Zajęcia trwają 1,5 godziny. </template>
+    </category>
+
+    <category>
+        <pattern>_ TRENINGI</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>TRENINGI _</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ TRENINGI *</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>KIEDY SĄ _</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KIEDY SĄ *</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>KIEDY ODBYWAJĄ SIĘ _</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KIEDY ODBYWAJĄ SIĘ *</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>TRENING</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ TRENING</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>TRENING _</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ TRENING *</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>GODZINY</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ GODZINY</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>GODZINY _</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ GODZINY *</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>GODZINACH</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ GODZINACH</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>GODZINACH _</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ GODZINACH *</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>JAK CZĘSTO *</pattern>
+        <template><srai>TRENINGI</srai></template>
+    </category>
+
+    <category>
+        <pattern>WIEK</pattern>
+        <template>Na naszych zajęciach mile widziane są dzieci z rocznika 2015 i młodsze. Starsze grupy prowadzi Przemek, terminy jego zajęć wypisane są na tablicy ogłoszeń przed lodowiskiem</template>
+    </category>
+
+    <category>
+        <pattern>_ WIEK</pattern>
+        <template><srai>WIEK</srai></template>
+    </category>
+
+    <category>
+        <pattern>WIEK _</pattern>
+        <template><srai>WIEK</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WIEK *</pattern>
+        <template><srai>WIEK</srai></template>
+    </category>
+
+    <category>
+        <pattern>WIEKU</pattern>
+        <template><srai>WIEK</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WIEKU</pattern>
+        <template><srai>WIEK</srai></template>
+    </category>
+
+    <category>
+        <pattern>WIEKU _</pattern>
+        <template><srai>WIEK</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WIEKU *</pattern>
+        <template><srai>WIEK</srai></template>
+    </category>
+
+    <category>
+        <pattern>DARMOWE</pattern>
+        <template>Chcemy popularyzować hokej, dlatego wszystkie zajęcia są darmowe. Dzięki temu trenujemy dzieciaki na przyszłych hokeistów reprezentujących barwy naszego klubu</template>
+    </category>
+
+    <category>
+        <pattern>_ DARMOWE</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>DARMOWE _</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ DARMOWE *</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>ZA DARMO</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ZA DARMO</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>ZA DARMO _</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ZA DARMO *</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>KOSZTUJĄ</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KOSZTUJĄ</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>KOSZTUJĄ _</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ KOSZTUJĄ *</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>ODPŁATNE</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ODPŁATNE</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>ODPŁATNE _</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ODPŁATNE *</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>PŁATNE</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ PŁATNE</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>PŁATNE _</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ PŁATNE *</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+     <category>
+        <pattern>PŁACI</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ PŁACI</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>PŁACI _</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ PŁACI *</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+   <category>
+        <pattern>CENA</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ CENA</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>CENA _</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ CENA *</pattern>
+        <template><srai>DARMOWE</srai></template>
+    </category>
+
+    <category>
+        <pattern>SPRZĘT</pattern>
+        <template>Sprzęt można wyporzyczyć w klubie, ale jest on nieco zniszczony. Ewentualnie można zaopatrzyć się w sklepie hokejowym, który znajduje się na ulicy tyskiej 47</template>
+    </category>
+
+    <category>
+        <pattern>_ SPRZĘT</pattern>
+        <template><srai>SPRZĘT</srai></template>
+    </category>
+
+    <category>
+        <pattern>SPRZĘT _</pattern>
+        <template><srai>SPRZĘT</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SPRZĘT *</pattern>
+        <template><srai>SPRZĘT</srai></template>
+    </category>
+
+    <category>
+        <pattern>SPRZĘTEM</pattern>
+        <template><srai>SPRZĘT</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ SPRZĘTEM</pattern>
+        <template><srai>SPRZĘT</srai></template>
+    </category>
+
+    <category>
+        <pattern>SPRZĘTEM _</pattern>
+        <template><srai>SPRZĘT</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SPRZĘTEM *</pattern>
+        <template><srai>SPRZĘT</srai></template>
+    </category>
+
+     <category>
+        <pattern>ŁYŻWY</pattern>
+        <template>Jeśli chodzi o łyżwy to warto kupić własne, gdyż wypożyczalnia na lodowisku pobiera koażdorazowo opłatę w wysokości 8zł za każdą godzinę użytkowania. We własnych łyżwach dziecko na pewno będzie czuło się bardziej komfortowo i szybciej nauczy się jeździć. Polecam kupić łyżwy hokejowe w sklepie za rogiem</template>
+    </category>
+
+     <category>
+        <pattern>_ ŁYŻWY</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>ŁYŻWY _</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ŁYŻWY *</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+     <category>
+        <pattern>ŁYŻWAMI</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ ŁYŻWAMI</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>ŁYŻWAMI _</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ŁYŻWAMI *</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+     <category>
+        <pattern>ŁYŻEW</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ ŁYŻEW</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>ŁYŻEW _</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ŁYŻEW *</pattern>
+        <template><srai>ŁYŻWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>GDZIE *</pattern>
+        <that>_ POLECAM KUPIĆ ŁYŻWY HOKEJOWE W SKLEPIE ZA ROGIEM</that>
+        <template>Sklep znajduje się na ulicy tyskiej 47</template>
+    </category>
+
+    <category>
+        <pattern>NA JAKIEJ *</pattern>
+        <that>_ POLECAM KUPIĆ ŁYŻWY HOKEJOWE W SKLEPIE ZA ROGIEM</that>
+        <template>Sklep znajduje się na ulicy tyskiej 47</template>
+    </category>
+
+    <category>
+        <pattern>RODZIC</pattern>
+        <template>Oczywiście rodzice może oglądać trening dziecka oraz pomagać mu w założeniu sprzętu. Aczkolwiek prosiłbym o przebywanie w szatni tylko i wyłącznie na czas pomocy dziecku, ponieważ szatnia nie jest z gumy i robi się straszne zamieszanie jak w szatni znajduje się 30 rodziców</template>
+    </category>
+
+     <category>
+        <pattern>_ RODZIC *</pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ RODZICE *</pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+    <category>
+        <pattern>RODZIC *</pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+    <category>
+        <pattern>RODZICE *</pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+    <category>
+        <pattern>OGLĄDAĆ </pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ OGLĄDAĆ  *</pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ OGLĄDAĆ </pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+    <category>
+        <pattern>OGLĄDAĆ *</pattern>
+        <template><srai>RODZIC</srai></template>
+    </category>
+
+    <category>
+        <pattern>DZIĘKUJĘ</pattern>
+        <template>Również dziękuję i mam nadzieję, że wyrośnie nam przyszła hokejowa gwiazda</template>
+    </category>
+
+     <category>
+        <pattern>_ DZIĘKUJĘ *</pattern>
+        <template><srai>DZIĘKUJĘ</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ DZIĘKUJĘ</pattern>
+        <template><srai>DZIĘKUJĘ</srai></template>
+    </category>
+
+    <category>
+        <pattern>DZIĘKUJĘ *</pattern>
+        <template><srai>DZIĘKUJĘ</srai></template>
+    </category>
+
+    <category>
+        <pattern>DZIĘKI</pattern>
+        <template><srai>DZIĘKUJĘ</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ DZIĘKI *</pattern>
+        <template><srai>DZIĘKUJĘ</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ DZIĘKI</pattern>
+        <template><srai>DZIĘKUJĘ</srai></template>
+    </category>
+
+    <category>
+        <pattern>DZIĘKI *</pattern>
+        <template><srai>DZIĘKUJĘ</srai></template>
+    </category>
+
+    <category>
+        <pattern>DO WIDZENIA</pattern>
+        <template>Do widzenia!</template>
+    </category>
+
+     <category>
+        <pattern>DO WIDZENIA *</pattern>
+        <template>Do widzenia!</template>
+    </category>
+
+     <category>
+        <pattern>_ DO WIDZENIA</pattern>
+        <template>Do widzenia!</template>
+    </category>
+
+    <category>
+        <pattern>_ DO WIDZENIA *</pattern>
+        <template>Do widzenia!</template>
+    </category>
+
+ <category>
+        <pattern>ZIMNO</pattern>
+        <template>Gdy dzieciaki jeżdżą na łyżwach to nie jest im zimno. Częściej to rodzicom jest zimno, gdy oglądają treningi z trybun</template>
+    </category>
+
+     <category>
+        <pattern>_ ZIMNO</pattern>
+        <template><srai>ZIMNO</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ZIMNO *</pattern>
+        <template><srai>ZIMNO</srai></template>
+    </category>
+
+    <category>
+        <pattern>ZIMNO *</pattern>
+        <template><srai>ZIMNO</srai></template>
+    </category>
+
+    <category>
+        <pattern>CIEPŁO</pattern>
+        <template><srai>ZIMNO</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ CIEPŁO</pattern>
+        <template><srai>ZIMNO</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ CIEPŁO *</pattern>
+        <template><srai>ZIMNO</srai></template>
+    </category>
+
+    <category>
+        <pattern>CIEPŁO *</pattern>
+        <template><srai>ZIMNO</srai></template>
+    </category>
+
+    <category>
+        <pattern>WYBORY</pattern>
+        <template>Nie interesuje się polityką, wolałbym odpowiadać na pytania związane z hokejem</template>
+    </category>
+
+     <category>
+        <pattern>_ WYBORY</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WYBORY *</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>WYBORY *</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WYBORACH</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WYBORACH *</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>WYBORACH *</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+     <category>
+        <pattern>WYBORACH</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WYBORÓW</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ WYBORÓW *</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>WYBORÓW *</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+     <category>
+        <pattern>WYBORÓW</pattern>
+        <template><srai>WYBORY</srai></template>
+    </category>
+
+    <category>
+        <pattern>SZKOŁA</pattern>
+        <template>Nie interesuje się polityką, wolałbym odpowiadać na pytania związane z hokejem</template>
+    </category>
+
+     <category>
+        <pattern>_ SZKOŁA</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SZKOŁA *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>SZKOŁA *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>SZKOŁA</pattern>
+        <template>Zajęcia hokejowe na pewno nie będą kolidować ze szkołą, gdyż zajęcia odwbywają się poza godzinami nauki dzieci. Posiadamy także klasy sportowe w SP nr 36, czy byłby Pan zaiteresowany zapisaniem dziecka do takiej klasy?</template>
+    </category>
+
+    <category>
+        <pattern>TAK</pattern>
+        <that>_ DZIECKA DO TAKIEJ *</that>
+        <template>W takim razię zapraszam na testy sprawnościowe, odbywają się one na miesiąc przed rozpoczęciem roku szkolnego</template>
+    </category>
+
+    <category>
+        <pattern>TAK *</pattern>
+        <that>_ DZIECKA DO TAKIEJ *</that>
+        <template>W takim razię zapraszam na testy sprawnościowe, odbywają się one na miesiąc przed rozpoczęciem roku szkolnego</template>
+    </category>
+
+    <category>
+        <pattern>NIE</pattern>
+        <that>_ DZIECKA DO TAKIEJ *</that>
+        <template>Rozumiem. Dla starszych dzieci zajęcia odbywają się w godzinach lekcyjnych, więc w tedy by nie opuszczać zajęć zalecałbym zapisanie dziecka do klasy hokejowej. Póki treningi nie przeszkadzają w lekcjach to nie jest konieczne.</template>
+    </category>
+
+     <category>
+        <pattern>NIE *</pattern>
+        <that>_ DZIECKA DO TAKIEJ *</that>
+        <template>Rozumiem. Dla starszych dzieci zajęcia odbywają się w godzinach lekcyjnych, więc w tedy by nie opuszczać zajęć zalecałbym zapisanie dziecka do klasy hokejowej. Póki treningi nie przeszkadzają w lekcjach to nie jest konieczne.</template>
+    </category>
+
+     <category>
+        <pattern>_ SZKOŁA</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SZKOŁA *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>SZKOŁA *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+     <category>
+        <pattern>SZKOŁĄ</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ SZKOŁĄ</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SZKOŁĄ *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>SZKOŁĄ *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>SZKOLE</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ SZKOLE</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SZKOLE *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>SZKOLE *</pattern>
+        <template><srai>SZKOŁA</srai></template>
+    </category>
+
+    <category>
+        <pattern>UBRAĆ</pattern>
+        <template>Najelpiej ubrać dziecko w sprzęt hokejowy dostępny w sklepie na ulicy tyskiej 47. Dla rodziców natomiast polecam ciepłą kurtkę</template>
+    </category>
+
+     <category>
+        <pattern>_ UBRAĆ</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ UBRAĆ *</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>UBRAĆ *</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>UBRANIE</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ UBRANIE</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ UBRANIE *</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>UBRANIE *</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>UBIERZE</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ UBIERZE</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ UBIERZE *</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>UBIERZE *</pattern>
+        <template><srai>UBRAĆ</srai></template>
+    </category>
+
+    <category>
+        <pattern>MECZE</pattern>
+        <template>Jeżeli dziecko dostanie się do drużyny to mecze i turnieje będą rozgrywane w weekendy, bądź czasami wieczorami w tygodniu. Będą też wyjazdy na terenie Śląska, ale proszę się nie martwić autokary opłacane są przez naszych sponsorów. Informacje o terminarzu meczy dostępne będą na tablicy ogłoszeń oraz naszej stronie internetowej z miesięcznym wyprzedzeniem</template>
+    </category>
+
+     <category>
+        <pattern>_ MECZE</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ MECZE *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>MECZE *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>ZAWODY</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ ZAWODY</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ ZAWODY *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>ZAWODY *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+     <category>
+        <pattern>TURNIEJE</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ TURNIEJE</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ TURNIEJE *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>TURNIEJE *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>TURNIEJ</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ TURNIEJ</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ TURNIEJ *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>TURNIEJ *</pattern>
+        <template><srai>MECZE</srai></template>
+    </category>
+
+    <category>
+        <pattern>NIE UMIE</pattern>
+        <template>Proszę się nie martwić, od tego są treningi, żeby dziecko się nauczyło</template>
+    </category>
+
+     <category>
+        <pattern>_ NIE UMIE</pattern>
+        <template><srai>NIE UMIE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ NIE UMIE *</pattern>
+        <template><srai>NIE UMIE</srai></template>
+    </category>
+
+    <category>
+        <pattern>NIE UMIE *</pattern>
+        <template><srai>NIE UMIE</srai></template>
+    </category>
+
+    <category>
+        <pattern>BARWY</pattern>
+        <template>Barwy naszego klubu to zielony, czarny i czerwony. Natomiast koszulki, w których grają dzieciaki są koloru białego o raz czarnego</template>
+    </category>
+
+     <category>
+        <pattern>_ BARWY</pattern>
+        <template><srai>BARWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ BARWY *</pattern>
+        <template><srai>BARWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>BARWY *</pattern>
+        <template><srai>BARWY</srai></template>
+    </category>
+
+    <category>
+        <pattern>OK</pattern>
+        <template>Cieszę się, jeżeli ma Pan jeszcze jakieś pytania to proszę śmiało pytać</template>
+    </category>
+
+    <category>
+        <pattern>ROZUMIEM</pattern>
+        <template><srai>OK</srai></template>
+    </category>
+
+    <category>
+        <pattern>SAMEGO</pattern>
+        <template>Oczywiście, nie musi Pan być obecny w trakcie treningu. Jeżeli jednak chciałby Pan zobaczyć jak radzi sobie pociecha to można pooglądać trening na trybunach</template>
+    </category>
+
+     <category>
+        <pattern>_ SAMEGO</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SAMEGO *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>SAMEGO *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+     <category>
+        <pattern>SAMĄ</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ SAMĄ</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SAMĄ *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>SAMĄ *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+     <category>
+        <pattern>SAMO</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ SAMO</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SAMO *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>SAMO *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>PILNOWAĆ *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+     <category>
+        <pattern>PILNOWAĆ</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ PILNOWAĆ</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ PILNOWAĆ *</pattern>
+        <template><srai>SAMEGO</srai></template>
+    </category>
+
+    <category>
+        <pattern>DOTACJE</pattern>
+        <template>Unia Europejska troszeczkę dokłada się do rozwoju hokeja na lodzie, jednak większość pieniędzy dostajemy od naszych sponsorów takich jak piwo Tyskie</template>
+    </category>
+
+     <category>
+        <pattern>_ DOTACJE</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ DOTACJE *</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+    <category>
+        <pattern>DOTACJE *</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+     <category>
+        <pattern>SPONSORÓW</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ SPONSORÓW</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SPONSORÓW *</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+    <category>
+        <pattern>SPONSORÓW *</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+<category>
+        <pattern>SPONSORZY</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+     <category>
+        <pattern>_ SPONSORZY</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+    <category>
+        <pattern>_ SPONSORZY *</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+    <category>
+        <pattern>SPONSORZY *</pattern>
+        <template><srai>DOTACJE</srai></template>
+    </category>
+
+ <category>
+        <pattern>_ POGOTOWIE</pattern>
+        <template>Szybko niech Pan dzwoni na 112</template>
+    </category>
+
+     <category>
+        <pattern>_ POGOTOWIE *</pattern>
+        <template><srai>POGOTOWIE</srai></template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>Na to pytanie akurat nie znam odpowiedzi. Przykro mi, może mój kolega Benek będzie wiedział</template>
+    </category>
+
+
+</aiml>
